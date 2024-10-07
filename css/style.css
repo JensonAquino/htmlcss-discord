@@ -24,6 +24,7 @@
 .nav-box {
     display: flex;
     justify-content: space-between;
+gap: 10px;
 }
 
 .bk-nav {
@@ -37,10 +38,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    ;
-    padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .box {
@@ -52,12 +56,14 @@
     max-width: 1100px;
     margin: 0 auto;
 }
-.titolo-1{
+
+.titolo-1 {
     text-align: center;
     color: #ffffff;
     margin-top: 80px;
 }
-.testo-1{
+
+.testo-1 {
     text-align: center;
     color: #ffffff;
 }
@@ -69,7 +75,6 @@
 }
 
 .w-boxes {
-    background-color: #daa520;
     min-height: 300px;
 }
 
@@ -79,13 +84,13 @@
 }
 
 .col-70 {
-    background-color: #1e90ff;
-    width: 70%;
+
+    width: 60%;
 }
 
 .col-30 {
-    background-color: #ffc0cb;
-    width: 30%;
+
+    width: 40%;
 }
 
 /* grey-boxe */
@@ -95,24 +100,28 @@
 }
 
 .g-boxes {
-    background-color: #daa520;
     min-height: 300px;
 }
 
 .g-row {
     display: flex;
     min-height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .g-col-70 {
-    background-color: #1e90ff;
-    width: 70%;
+
+    width: 60%;
+    text-align: center;
 }
 
 .g-col-30 {
-    background-color: #ffc0cb;
-    width: 30%;
+
+    width: 40%;
+    text-align: center;
 }
+
 /* green box */
 .gr-center-box {
     background-color: #d3d3d3;
@@ -120,11 +129,9 @@
 }
 
 .gr-box {
-    display: flex;
-    justify-content: space-between;
-    background-color: #228b22;
     min-height: 500px;
 }
+
 /* footer top */
 .footer-bk-boxes {
     background-color: #23272a;
@@ -132,7 +139,7 @@
 }
 
 .footer-boxes {
-    background-color: #daa520;
+    
     min-height: 300px;
 }
 
@@ -142,41 +149,82 @@
 }
 
 .col-40 {
-    background-color: #f08080;
+    
     width: 40%;
 }
 
 .col-15 {
-    background-color: #20b2aa;
+   
     width: 15%;
 }
+
 /* footer bot */
 .footer-bot-boxes {
     display: flex;
     justify-content: space-between;
-    background-color: #7fffd4;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.logo{
+
+.logo {
     background-color: #ffb6c1;
 }
+
 /* parti comuni */
-.w-button{
-color: black;
+.w-button {
+    color: black;
     background-color: #ffffff;
     padding: 5px;
     border-radius: 20px;
 }
-.b-button{
+
+.b-button {
     color: white;
     background-color: #23272a;
     padding: 5px;
     border-radius: 20px;
 }
-.blue-button{
-    color: #7289da;
-    background-color: #ffffff;
+
+.blue-button {
+    color: #ffffff;
+    background-color: #7289da;
     padding: 5px;
     border-radius: 20px;
+    display: inline-block;
+}
+
+.immagini {
+    width: 70%;
+    text-align: center;
+}
+
+.flex{
+    justify-content: center;
+    align-items: center;
+}
+
+.n-testo {
+    text-align: center;
+}
+.link{
+    color: #ffffff;
+    text-decoration: none; 
+	font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.band{
+    height: 20px;
+    width: 40px;
+}
+.azz{
+    color: #7289d6;
+    margin: 10px;
+}
+.whit{
+    color: #ffffff;
+    margin: 10px;
+}
+.f-list{
+    list-style-type: none
 }
